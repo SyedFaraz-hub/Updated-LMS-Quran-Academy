@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Courses Guest</title>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../CSS/style.css">
+  <link rel="stylesheet" href="../CSS/bootstrap.css">
+  <script src="../Script/bootstrap.js"></script>
+  <link rel="shortcut icon" type="image/jpg" href="../Images/logo.png"/>
+</head>
+
+<body>
+  <!-- <div class="container"> -->
+  <!-- NAVBAR -->
+  <header>
+  <?php include '../Components/NavbarGuest.php'; ?>
+  </header>
+
+  <!-- header end -->
+
+  <!-- search section start -->
+  <section>
+    <nav class="navbar navbar-light bg-white">
+      <div class="container-fluid">
+        <a class="navbar-brand">Courses</a>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search Course..." aria-label="Search">
+          <i class="fas fa-search"></i>
+        </form>
+      </div>
+    </nav>
+  </section>
+  <!-- search secion end -->
+
+  <!-- horizontal line start -->
+  <div class="hr1">
+    <hr>
+  </div>
+  <!-- horizontal line end -->
+  <!-- horizontal line start -->
+  <div class="hr2">
+    <hr>
+  </div>
+  <!-- horizontal line end -->
+
+  <!-- section start  -->
+  <div class="container-fluid">
+    <div class="main-section">
+      <div class="sub1-section">
+        <div class="row">
+          <div class="col-4">
+            <div class="picborder">
+              <img src="../Images/Demo Course.jpg">
+              <button class="btn btn-outline-primary" data-bs-toggle="modal"
+                data-bs-target="#exampleModal"><a>Enroll</a></button>
+            </div>
+
+          </div>
+          <div class="col-8">
+            <div class="headingcourse">
+              <h1>Course abc</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+              <h5>$123</h5>
+              <h5>Instructor:<span>Instructor abc</span></h5>
+              <h5>Days:<span>Monday, Tuesday, Wednesday</span></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sub2-section">
+        <div class="row">
+          <div class="col-4 ">
+            <div class="picborder">
+              <img src="../Images/Demo Course.jpg">
+              <button class="btn btn-outline-primary" data-bs-toggle="modal"
+                data-bs-target="#exampleModal"><a>Enroll</a></button>
+            </div>
+          </div>
+          <div class="col-8">
+            <div class="headingcourse">
+              <h1>Course abc</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+              <h5>$123</h5>
+              <h5>Instructor:<span>Instructor abc</span></h5>
+              <h5>Days:<span>Monday, Tuesday, Wednesday</span></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- section1 and 2 end -->
+
+  <!-- section3 and section4 start -->
+  <div class="container-fluid">
+    <div class="main-section">
+      <div class="sub1-section">
+        <div class="row">
+          <div class="col-4">
+            <div class="picborder">
+              <img src="../Images/Demo Course.jpg">
+              <button class="btn btn-outline-primary" data-bs-toggle="modal"
+                data-bs-target="#exampleModal"><a>Enroll</a></button>
+            </div>
+          </div>
+          <div class="col-8">
+            <div class="headingcourse">
+              <h1>Course abc</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+              <h5>$123</h5>
+              <h5>Instructor:<span>Instructor abc</span></h5>
+              <h5>Days:<span>Monday, Tuesday, Wednesday</span></h5>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="sub2-section">
+        <div class="row">
+          <div class="col-4">
+            <div class="picborder">
+              <img src="../Images/Demo Course.jpg">
+              <button class="btn btn-outline-primary" data-bs-toggle="modal"
+                data-bs-target="#exampleModal"><a>Enroll</a></button>
+            </div>
+          </div>
+          <div class="col-8">
+            <div class="headingcourse">
+              <h1>Course abc</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+              <h5>$123</h5>
+              <h5>Instructor:<span>Instructor abc</span></h5>
+              <h5>Days:<span>Monday, Tuesday, Wednesday</span></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- section3 and 4 end -->
+
+  <!-- horizontal line start -->
+  <div class="hr2">
+    <hr>
+  </div>
+  <!-- horizontal line end -->
+
+  <!-- section5 and6 start -->
+  <div class="container-fluid">
+    <div class="main-section">
+      <div class="sub1-section">
+        <div class="row">
+          <div class="col-4">
+            <div class="picborder">
+              <img src="../Images/Demo Course.jpg">
+              <button class="btn btn-outline-primary" data-bs-toggle="modal"
+                data-bs-target="#exampleModal"><a>Enroll</a></button>
+            </div>
+          </div>
+          <div class="col-8">
+            <div class="headingcourse">
+              <h1>Course abc</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+              <h5>$123</h5>
+              <h5>Instructor:<span>Instructor abc</span></h5>
+              <h5>Days:<span>Monday, Tuesday, Wednesday</span></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sub2-section">
+        <div class="row">
+          <div class="col-4">
+            <div class="picborder">
+              <img src="../Images/Demo Course.jpg">
+              <button class="btn btn-outline-primary" data-bs-toggle="modal"
+                data-bs-target="#exampleModal"><a>Enroll</a></button>
+            </div>
+          </div>
+          <div class="col-8">
+            <div class="headingcourse">
+              <h1>Course abc</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+              <h5>$123</h5>
+              <h5>Instructor:<span>Instructor abc</span></h5>
+              <h5>Days:<span>Monday, Tuesday, Wednesday</span></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- section5 and 6 end -->
+
+
+  <!-- ___________________EXTRA__________________- -->
+  <!-- Modal Alert -->
+  <!-- Button trigger modal -->
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close btn-close-color" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="iconcancel">
+            <i class="fa fa-times-circle"></i>
+          </div>
+          <div class="error-tag">
+            <h2>Error!</h2>
+          </div>
+        </div>
+        <div class="para-Error">
+          <h3>Please Login Or Sign up to Continue</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- FOOTER -->
+
+  <footer>
+  <?php include '../Components/Footer.php'; ?>
+  </footer>
+
+
+
+
+  </div>
+</body>
+
+</html>
