@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="../CSS/style.css">
     <link rel="stylesheet" href="../CSS/bootstrap.css">
     <script src="../Script/bootstrap.js"></script>
-    <link rel="shortcut icon" type="image/jpg" href="../Images/logo.png"/>
+    <link rel="shortcut icon" type="image/jpg" href="../Images/logo.png" />
 </head>
 
 <body>
@@ -25,279 +25,61 @@
     </header>
 
     <!-- header end -->
-                  <div class="container"> 
-                    <section class="main-article main-table-coursesclasses">
-                        <!-- insdie articel side row start -->
-                        <div class="row ml-0px">
-                            <div class="col-lg-12 col-sm-12">
-                                <div class="article-image">
-                                    <div class="mycourses-container">
-                                        <div class="heading-mycourse">
-                                            <h1>My Courses</h1>
-                                        </div>
-                                        <div class="Entries-mycourses Entries-courseclasses">
-                                            <span> <span class="entriesshow-tag"> Show Entries :</span>
-                                                <select name="" id="">
-                                                    <option value="1">1</option>
-                                                    <option value="1">2</option>
-                                                    <option value="1">3</option>
-                                                    <option value="1">4</option>
-                                                    <option value="1">5</option>
-                                                </select>
-                                            </span>
-                                            <div class="search-bar-courseclasses">
-                                                <input type="text" placeholder="Search ">
-                                                <a href=""> <i class="fa fa-search"></i> </a>
-                                            </div>
-                                        </div>
+    <div class="container">
+        <section class="main-article main-table-coursesclasses">
+            <!-- insdie articel side row start -->
+            <div class="row ml-0px">
+                <div class="col-lg-12 col-sm-12">
+                    <div class="article-image">
+                        <div class="mycourses-container">
+                            <div class="heading-mycourse">
+                                <h1>My Courses</h1>
+                            </div>
+                            <div class="Entries-mycourses Entries-courseclasses">
+                                <span> <span class="entriesshow-tag"> Show Entries :</span>
+                                    <select name="" id="">
+                                        <option value="1">1</option>
+                                        <option value="1">2</option>
+                                        <option value="1">3</option>
+                                        <option value="1">4</option>
+                                        <option value="1">5</option>
+                                    </select>
+                                </span>
+                                <div class="search-bar-courseclasses">
+                                    <input type="text" placeholder="Search ">
+                                    <a href=""> <i class="fa fa-search"></i> </a>
+                                </div>
+                            </div>
 
-                                        <div class="dates-mycourses">
-                                            <span>Sort by Date:</span>
-                                            <input class="selectdate" type="date"> <span> --</span><input
-                                                class="selectdate" type="date">
-                                            <div class="filterbystatus-mycourses">
-                                                <span>Filter By Status</span>
-                                                <select name="" id="">
-                                                    <option value="">Select</option>
-                                                    <option value="">Select</option>
-                                                    <option value="">Select</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="container ">
+                            <div class="dates-mycourses">
+                                <span>Sort by Date:</span>
+                                <input class="selectdate" type="date"> <span> --</span><input class="selectdate"
+                                    type="date">
+                                <div class="filterbystatus-mycourses">
+                                    <span>Filter By Status</span>
+                                    <select name="" id="">
+                                        <option value="">Select</option>
+                                        <option value="">Select</option>
+                                        <option value="">Select</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="container ">
 
-                                            <div class="shadow p-3 mb-5 bg-white rounded container-heading-nortifcation- margin-top">
-                                                <div class="table-container">
-                                                    <div class="table-wrapper-scroll-y my-custom-scrollbar-2">
-                                                        <table class="table table-striped">
-                                                            <thead>
-                                                                <tr>
-                                                                    <th scope="col" >S.No</th>
-                                                                    <th scope="col">Course Title</th>
-                                                                    <th scope="col">Intructor</th>
-                                                                    <th scope="col">Date</th>
-                                                                    <th scope="col">Cost</th>
-                                                                    <th scope="col">Status</th>
-                                                                    <th scope="col">Actions</th>
-                                                                </tr>
-                                                            </thead>
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>01</td>
-                                                                    <td>Course Abc</td>
-                                                                    <td>instructor Abc</td>
-                                                                    <td>dd/mm/yyyy</td>
-                                                                    <td>$123</td>
-                                                                    <td>Ongoing</td>
-                                                                    <td><i class="fa-black-dot fa fa-ellipsis-v" type="Button"
-                                                                            class="modal-btn-2 btn btn-outline-primary"
-                                                                            data-bs-target="#exampleModalToggle7"
-                                                                            data-bs-toggle="modal"></i></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>01</td>
-                                                                    <td>Course Abc</td>
-                                                                    <td>instructor Abc</td>
-                                                                    <td>dd/mm/yyyy</td>
-                                                                    <td>$123</td>
-                                                                    <td>Ongoing</td>
-                                                                    <td><i class="fa-black-dot fa fa-ellipsis-v" type="Button"
-                                                                            class="modal-btn-2 btn btn-outline-primary"
-                                                                            data-bs-target="#exampleModalToggle7"
-                                                                            data-bs-toggle="modal"></i></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>01</td>
-                                                                    <td>Course Abc</td>
-                                                                    <td>instructor Abc</td>
-                                                                    <td>dd/mm/yyyy</td>
-                                                                    <td>$123</td>
-                                                                    <td>Ongoing</td>
-                                                                    <td><i class="fa-black-dot fa fa-ellipsis-v" type="Button"
-                                                                            class="modal-btn-2 btn btn-outline-primary"
-                                                                            data-bs-target="#exampleModalToggle7"
-                                                                            data-bs-toggle="modal"></i></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>01</td>
-                                                                    <td>Course Abc</td>
-                                                                    <td>instructor Abc</td>
-                                                                    <td>dd/mm/yyyy</td>
-                                                                    <td>$123</td>
-                                                                    <td>Ongoing</td>
-                                                                    <td><i class="fa-black-dot fa fa-ellipsis-v" type="Button"
-                                                                            class="modal-btn-2 btn btn-outline-primary"
-                                                                            data-bs-target="#exampleModalToggle7"
-                                                                            data-bs-toggle="modal"></i></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>01</td>
-                                                                    <td>Course Abc</td>
-                                                                    <td>instructor Abc</td>
-                                                                    <td>dd/mm/yyyy</td>
-                                                                    <td>$123</td>
-                                                                    <td>Ongoing</td>
-                                                                    <td><i class="fa-black-dot fa fa-ellipsis-v" type="Button"
-                                                                            class="modal-btn-2 btn btn-outline-primary"
-                                                                            data-bs-target="#exampleModalToggle7"
-                                                                            data-bs-toggle="modal"></i></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>01</td>
-                                                                    <td>Course Abc</td>
-                                                                    <td>instructor Abc</td>
-                                                                    <td>dd/mm/yyyy</td>
-                                                                    <td>$123</td>
-                                                                    <td>Ongoing</td>
-                                                                    <td><i class="fa-black-dot fa fa-ellipsis-v" type="Button"
-                                                                            class="modal-btn-2 btn btn-outline-primary"
-                                                                            data-bs-target="#exampleModalToggle7"
-                                                                            data-bs-toggle="modal"></i></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>01</td>
-                                                                    <td>Course Abc</td>
-                                                                    <td>instructor Abc</td>
-                                                                    <td>dd/mm/yyyy</td>
-                                                                    <td>$123</td>
-                                                                    <td>Ongoing</td>
-                                                                    <td><i class="fa-black-dot fa fa-ellipsis-v" type="Button"
-                                                                            class="modal-btn-2 btn btn-outline-primary"
-                                                                            data-bs-target="#exampleModalToggle7"
-                                                                            data-bs-toggle="modal"></i></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>01</td>
-                                                                    <td>Course Abc</td>
-                                                                    <td>instructor Abc</td>
-                                                                    <td>dd/mm/yyyy</td>
-                                                                    <td>$123</td>
-                                                                    <td>Ongoing</td>
-                                                                    <td><i class="fa-black-dot fa fa-ellipsis-v" type="Button"
-                                                                            class="modal-btn-2 btn btn-outline-primary"
-                                                                            data-bs-target="#exampleModalToggle7"
-                                                                            data-bs-toggle="modal"></i></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>01</td>
-                                                                    <td>Course Abc</td>
-                                                                    <td>instructor Abc</td>
-                                                                    <td>dd/mm/yyyy</td>
-                                                                    <td>$123</td>
-                                                                    <td>Ongoing</td>
-                                                                    <td><i class="fa-black-dot fa fa-ellipsis-v" type="Button"
-                                                                            class="modal-btn-2 btn btn-outline-primary"
-                                                                            data-bs-target="#exampleModalToggle7"
-                                                                            data-bs-toggle="modal"></i></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>01</td>
-                                                                    <td>Course Abc</td>
-                                                                    <td>instructor Abc</td>
-                                                                    <td>dd/mm/yyyy</td>
-                                                                    <td>$123</td>
-                                                                    <td>Ongoing</td>
-                                                                    <td><i class="fa-black-dot fa fa-ellipsis-v" type="Button"
-                                                                            class="modal-btn-2 btn btn-outline-primary"
-                                                                            data-bs-target="#exampleModalToggle7"
-                                                                            data-bs-toggle="modal"></i></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>01</td>
-                                                                    <td>Course Abc</td>
-                                                                    <td>instructor Abc</td>
-                                                                    <td>dd/mm/yyyy</td>
-                                                                    <td>$123</td>
-                                                                    <td>Ongoing</td>
-                                                                    <td><i class="fa-black-dot fa fa-ellipsis-v" type="Button"
-                                                                            class="modal-btn-2 btn btn-outline-primary"
-                                                                            data-bs-target="#exampleModalToggle7"
-                                                                            data-bs-toggle="modal"></i></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>01</td>
-                                                                    <td>Course Abc</td>
-                                                                    <td>instructor Abc</td>
-                                                                    <td>dd/mm/yyyy</td>
-                                                                    <td>$123</td>
-                                                                    <td>Ongoing</td>
-                                                                    <td><i class="fa-black-dot fa fa-ellipsis-v" type="Button"
-                                                                            class="modal-btn-2 btn btn-outline-primary"
-                                                                            data-bs-target="#exampleModalToggle7"
-                                                                            data-bs-toggle="modal"></i></td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                    
-                                    
-                                    
-                                    
-                                                    <!-- <table class="GeneratedTable-nortifcation">
-                                    
-                                                    <tbody>
-                                                        <tr>
-                                                            <td>
-                                                                <i class="bell-icon-notipage-nortifcation fa fa-bell"></i>
-                                                                <p class="noti-para-nortifcation">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                                                    Dolorum qui quaerat aspernatur fuga repellat sunt optio beatae velit soluta blanditiis?
-                                                                </p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                                <i class="bell-icon-notipage-nortifcation fa fa-bell"></i>
-                                                                <p class="noti-para-nortifcation">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                                    Quia, ipsam sapiente. Provident quasi error maxime iure animi commodi nemo velit! </p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                                <i class="bell-icon-notipage-nortifcation fa fa-bell"></i>
-                                                                <p class="noti-para-nortifcation">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                                                    Repellat, culpa placeat ad tenetur a aut impedit praesentium voluptatibus esse
-                                                                    quibusdam.
-                                                                </p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                                <i class="bell-icon-notipage-nortifcation fa fa-bell"></i>
-                                                                <p class="noti-para-nortifcation">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                                                    Repellat, culpa placeat ad tenetur a aut impedit praesentium voluptatibus esse
-                                                                    quibusdam.
-                                                                </p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                                <i class="bell-icon-notipage-nortifcation fa fa-bell"></i>
-                                                                <p class="noti-para-nortifcation">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                                                    Repellat, culpa placeat ad tenetur a aut impedit praesentium voluptatibus esse
-                                                                    quibusdam.
-                                                                </p>
-                                                            </td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table> -->
-                                    
-                                    
-                                                </div>
-                                            </div>
-                                        </div>
-                                    
-
-                                        <!-- <div class="containerfortable-mycourses">
-                                            <table class="GeneratedTable-mycourses GeneratedTable-coursesclasses">
+                                <div
+                                    class="shadow p-3 mb-5 bg-white rounded container-heading-nortifcation- margin-top">
+                                    <div class="table-container">
+                                        <div class="table-wrapper-scroll-y my-custom-scrollbar-2">
+                                            <table class="table table-striped">
                                                 <thead>
                                                     <tr>
-                                                        <th>S.No</th>
-                                                        <th>Course Title</th>
-                                                        <th>Intructor</th>
-                                                        <th>Date</th>
-                                                        <th>Cost</th>
-                                                        <th>Status</th>
-                                                        <th>Actions</th>
+                                                        <th scope="col">S.No</th>
+                                                        <th scope="col">Course Title</th>
+                                                        <th scope="col">Intructor</th>
+                                                        <th scope="col">Date</th>
+                                                        <th scope="col">Cost</th>
+                                                        <th scope="col">Status</th>
+                                                        <th scope="col">Actions</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
@@ -314,7 +96,7 @@
                                                                 data-bs-toggle="modal"></i></td>
                                                     </tr>
                                                     <tr>
-                                                        <td>02</td>
+                                                        <td>01</td>
                                                         <td>Course Abc</td>
                                                         <td>instructor Abc</td>
                                                         <td>dd/mm/yyyy</td>
@@ -326,7 +108,7 @@
                                                                 data-bs-toggle="modal"></i></td>
                                                     </tr>
                                                     <tr>
-                                                        <td>03</td>
+                                                        <td>01</td>
                                                         <td>Course Abc</td>
                                                         <td>instructor Abc</td>
                                                         <td>dd/mm/yyyy</td>
@@ -338,7 +120,7 @@
                                                                 data-bs-toggle="modal"></i></td>
                                                     </tr>
                                                     <tr>
-                                                        <td>04</td>
+                                                        <td>01</td>
                                                         <td>Course Abc</td>
                                                         <td>instructor Abc</td>
                                                         <td>dd/mm/yyyy</td>
@@ -350,7 +132,7 @@
                                                                 data-bs-toggle="modal"></i></td>
                                                     </tr>
                                                     <tr>
-                                                        <td>05</td>
+                                                        <td>01</td>
                                                         <td>Course Abc</td>
                                                         <td>instructor Abc</td>
                                                         <td>dd/mm/yyyy</td>
@@ -362,7 +144,7 @@
                                                                 data-bs-toggle="modal"></i></td>
                                                     </tr>
                                                     <tr>
-                                                        <td>06</td>
+                                                        <td>01</td>
                                                         <td>Course Abc</td>
                                                         <td>instructor Abc</td>
                                                         <td>dd/mm/yyyy</td>
@@ -374,7 +156,67 @@
                                                                 data-bs-toggle="modal"></i></td>
                                                     </tr>
                                                     <tr>
-                                                        <td>07</td>
+                                                        <td>01</td>
+                                                        <td>Course Abc</td>
+                                                        <td>instructor Abc</td>
+                                                        <td>dd/mm/yyyy</td>
+                                                        <td>$123</td>
+                                                        <td>Ongoing</td>
+                                                        <td><i class="fa-black-dot fa fa-ellipsis-v" type="Button"
+                                                                class="modal-btn-2 btn btn-outline-primary"
+                                                                data-bs-target="#exampleModalToggle7"
+                                                                data-bs-toggle="modal"></i></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>01</td>
+                                                        <td>Course Abc</td>
+                                                        <td>instructor Abc</td>
+                                                        <td>dd/mm/yyyy</td>
+                                                        <td>$123</td>
+                                                        <td>Ongoing</td>
+                                                        <td><i class="fa-black-dot fa fa-ellipsis-v" type="Button"
+                                                                class="modal-btn-2 btn btn-outline-primary"
+                                                                data-bs-target="#exampleModalToggle7"
+                                                                data-bs-toggle="modal"></i></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>01</td>
+                                                        <td>Course Abc</td>
+                                                        <td>instructor Abc</td>
+                                                        <td>dd/mm/yyyy</td>
+                                                        <td>$123</td>
+                                                        <td>Ongoing</td>
+                                                        <td><i class="fa-black-dot fa fa-ellipsis-v" type="Button"
+                                                                class="modal-btn-2 btn btn-outline-primary"
+                                                                data-bs-target="#exampleModalToggle7"
+                                                                data-bs-toggle="modal"></i></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>01</td>
+                                                        <td>Course Abc</td>
+                                                        <td>instructor Abc</td>
+                                                        <td>dd/mm/yyyy</td>
+                                                        <td>$123</td>
+                                                        <td>Ongoing</td>
+                                                        <td><i class="fa-black-dot fa fa-ellipsis-v" type="Button"
+                                                                class="modal-btn-2 btn btn-outline-primary"
+                                                                data-bs-target="#exampleModalToggle7"
+                                                                data-bs-toggle="modal"></i></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>01</td>
+                                                        <td>Course Abc</td>
+                                                        <td>instructor Abc</td>
+                                                        <td>dd/mm/yyyy</td>
+                                                        <td>$123</td>
+                                                        <td>Ongoing</td>
+                                                        <td><i class="fa-black-dot fa fa-ellipsis-v" type="Button"
+                                                                class="modal-btn-2 btn btn-outline-primary"
+                                                                data-bs-target="#exampleModalToggle7"
+                                                                data-bs-toggle="modal"></i></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>01</td>
                                                         <td>Course Abc</td>
                                                         <td>instructor Abc</td>
                                                         <td>dd/mm/yyyy</td>
@@ -387,7 +229,7 @@
                                                     </tr>
                                                 </tbody>
                                             </table>
-                                        </div> -->
+                                        </div>
 
 
 
@@ -399,11 +241,11 @@
                             </div>
                         </div>
                         <!-- insdie articel side row end -->
-                    </section>
-                </div>
-                <br><br>
+        </section>
+    </div>
+    <br><br>
 
-                <!-- article side end -->
+    <!-- article side end -->
 
 
     <!-- MODAL FOR  LESSSON  # 1   -->
@@ -459,7 +301,11 @@
     </div>
     </div>
 
+  <!-- FOOTERTOP -->
 
+  <footer>
+    <?php include '../Components/FooterTop.php'; ?>
+  </footer>
 
 
     <!-- FOOTER -->

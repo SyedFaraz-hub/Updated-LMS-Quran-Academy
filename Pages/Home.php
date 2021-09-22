@@ -30,6 +30,10 @@
     </Section>
     <!-- carousel slider end -->
 
+    <Section class="Slider">
+        <?php include "../Components/Marquee.php";  ?>
+   </Section>
+
 
 
     <!-- aboutus section start -->
@@ -331,7 +335,11 @@
     </div>
 
 
+  <!-- FOOTERTOP -->
 
+  <footer>
+    <?php include '../Components/FooterTop.php'; ?>
+  </footer>
 
   <!-- FOOTER -->
 

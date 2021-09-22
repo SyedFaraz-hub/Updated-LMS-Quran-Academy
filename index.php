@@ -104,6 +104,12 @@
     <!-- carousel slider end -->
 
 
+    <!-- ----Marqueee----- -->
+    <Section class="Slider">
+        <?php include "./Components/Marquee.php";  ?>
+   </Section>
+
+
     <!-- aboutus section start -->
     <div class="aboutus-section">
         <div class="row row-col-2">

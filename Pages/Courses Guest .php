@@ -227,6 +227,12 @@
   </div>
 
 
+  <!-- FOOTERTOP -->
+
+  <footer>
+    <?php include '../Components/FooterTopGuest.php'; ?>
+  </footer>
+  
   <!-- FOOTER -->
 
   <footer>

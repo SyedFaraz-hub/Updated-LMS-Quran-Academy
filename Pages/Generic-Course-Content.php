@@ -180,7 +180,11 @@
 
 
 
+  <!-- FOOTERTOP -->
 
+  <footer>
+    <?php include '../Components/FooterTop.php'; ?>
+  </footer>
 
 
 

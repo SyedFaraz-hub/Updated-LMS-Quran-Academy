@@ -145,61 +145,15 @@
 
 
 
-
-                <!-- <table class="GeneratedTable-nortifcation">
-
-                <tbody>
-                    <tr>
-                        <td>
-                            <i class="bell-icon-notipage-nortifcation fa fa-bell"></i>
-                            <p class="noti-para-nortifcation">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                Dolorum qui quaerat aspernatur fuga repellat sunt optio beatae velit soluta blanditiis?
-                            </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <i class="bell-icon-notipage-nortifcation fa fa-bell"></i>
-                            <p class="noti-para-nortifcation">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                Quia, ipsam sapiente. Provident quasi error maxime iure animi commodi nemo velit! </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <i class="bell-icon-notipage-nortifcation fa fa-bell"></i>
-                            <p class="noti-para-nortifcation">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Repellat, culpa placeat ad tenetur a aut impedit praesentium voluptatibus esse
-                                quibusdam.
-                            </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <i class="bell-icon-notipage-nortifcation fa fa-bell"></i>
-                            <p class="noti-para-nortifcation">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Repellat, culpa placeat ad tenetur a aut impedit praesentium voluptatibus esse
-                                quibusdam.
-                            </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <i class="bell-icon-notipage-nortifcation fa fa-bell"></i>
-                            <p class="noti-para-nortifcation">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Repellat, culpa placeat ad tenetur a aut impedit praesentium voluptatibus esse
-                                quibusdam.
-                            </p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table> -->
-
-
             </div>
         </div>
     </div>
 
+  <!-- FOOTERTOP -->
 
+  <footer>
+    <?php include '../Components/FooterTop.php'; ?>
+  </footer>
 
 
     <!-- FOOTER -->

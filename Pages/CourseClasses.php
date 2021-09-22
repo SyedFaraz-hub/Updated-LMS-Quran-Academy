@@ -252,163 +252,11 @@
                                     
                                     
                                     
-                                                    <!-- <table class="GeneratedTable-nortifcation">
-                                    
-                                                    <tbody>
-                                                        <tr>
-                                                            <td>
-                                                                <i class="bell-icon-notipage-nortifcation fa fa-bell"></i>
-                                                                <p class="noti-para-nortifcation">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                                                    Dolorum qui quaerat aspernatur fuga repellat sunt optio beatae velit soluta blanditiis?
-                                                                </p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                                <i class="bell-icon-notipage-nortifcation fa fa-bell"></i>
-                                                                <p class="noti-para-nortifcation">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                                    Quia, ipsam sapiente. Provident quasi error maxime iure animi commodi nemo velit! </p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                                <i class="bell-icon-notipage-nortifcation fa fa-bell"></i>
-                                                                <p class="noti-para-nortifcation">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                                                    Repellat, culpa placeat ad tenetur a aut impedit praesentium voluptatibus esse
-                                                                    quibusdam.
-                                                                </p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                                <i class="bell-icon-notipage-nortifcation fa fa-bell"></i>
-                                                                <p class="noti-para-nortifcation">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                                                    Repellat, culpa placeat ad tenetur a aut impedit praesentium voluptatibus esse
-                                                                    quibusdam.
-                                                                </p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                                <i class="bell-icon-notipage-nortifcation fa fa-bell"></i>
-                                                                <p class="noti-para-nortifcation">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                                                    Repellat, culpa placeat ad tenetur a aut impedit praesentium voluptatibus esse
-                                                                    quibusdam.
-                                                                </p>
-                                                            </td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table> -->
-                                    
                                     
                                                 </div>
                                             </div>
                                         </div>
                                     
-
-                                        <!-- <div class="containerfortable-mycourses">
-                                            <table class="GeneratedTable-mycourses GeneratedTable-coursesclasses">
-                                                <thead>
-                                                    <tr>
-                                                        <th>S.No</th>
-                                                        <th>Course Title</th>
-                                                        <th>Intructor</th>
-                                                        <th>Date</th>
-                                                        <th>Cost</th>
-                                                        <th>Status</th>
-                                                        <th>Actions</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <td>01</td>
-                                                        <td>Course Abc</td>
-                                                        <td>instructor Abc</td>
-                                                        <td>dd/mm/yyyy</td>
-                                                        <td>$123</td>
-                                                        <td>Ongoing</td>
-                                                        <td><i class="fa-black-dot fa fa-ellipsis-v" type="Button"
-                                                                class="modal-btn-2 btn btn-outline-primary"
-                                                                data-bs-target="#exampleModalToggle7"
-                                                                data-bs-toggle="modal"></i></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>02</td>
-                                                        <td>Course Abc</td>
-                                                        <td>instructor Abc</td>
-                                                        <td>dd/mm/yyyy</td>
-                                                        <td>$123</td>
-                                                        <td>Ongoing</td>
-                                                        <td><i class="fa-black-dot fa fa-ellipsis-v" type="Button"
-                                                                class="modal-btn-2 btn btn-outline-primary"
-                                                                data-bs-target="#exampleModalToggle7"
-                                                                data-bs-toggle="modal"></i></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>03</td>
-                                                        <td>Course Abc</td>
-                                                        <td>instructor Abc</td>
-                                                        <td>dd/mm/yyyy</td>
-                                                        <td>$123</td>
-                                                        <td>Ongoing</td>
-                                                        <td><i class="fa-black-dot fa fa-ellipsis-v" type="Button"
-                                                                class="modal-btn-2 btn btn-outline-primary"
-                                                                data-bs-target="#exampleModalToggle7"
-                                                                data-bs-toggle="modal"></i></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>04</td>
-                                                        <td>Course Abc</td>
-                                                        <td>instructor Abc</td>
-                                                        <td>dd/mm/yyyy</td>
-                                                        <td>$123</td>
-                                                        <td>Ongoing</td>
-                                                        <td><i class="fa-black-dot fa fa-ellipsis-v" type="Button"
-                                                                class="modal-btn-2 btn btn-outline-primary"
-                                                                data-bs-target="#exampleModalToggle7"
-                                                                data-bs-toggle="modal"></i></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>05</td>
-                                                        <td>Course Abc</td>
-                                                        <td>instructor Abc</td>
-                                                        <td>dd/mm/yyyy</td>
-                                                        <td>$123</td>
-                                                        <td>Ongoing</td>
-                                                        <td><i class="fa-black-dot fa fa-ellipsis-v" type="Button"
-                                                                class="modal-btn-2 btn btn-outline-primary"
-                                                                data-bs-target="#exampleModalToggle7"
-                                                                data-bs-toggle="modal"></i></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>06</td>
-                                                        <td>Course Abc</td>
-                                                        <td>instructor Abc</td>
-                                                        <td>dd/mm/yyyy</td>
-                                                        <td>$123</td>
-                                                        <td>Ongoing</td>
-                                                        <td><i class="fa-black-dot fa fa-ellipsis-v" type="Button"
-                                                                class="modal-btn-2 btn btn-outline-primary"
-                                                                data-bs-target="#exampleModalToggle7"
-                                                                data-bs-toggle="modal"></i></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>07</td>
-                                                        <td>Course Abc</td>
-                                                        <td>instructor Abc</td>
-                                                        <td>dd/mm/yyyy</td>
-                                                        <td>$123</td>
-                                                        <td>Ongoing</td>
-                                                        <td><i class="fa-black-dot fa fa-ellipsis-v" type="Button"
-                                                                class="modal-btn-2 btn btn-outline-primary"
-                                                                data-bs-target="#exampleModalToggle7"
-                                                                data-bs-toggle="modal"></i></td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div> -->
-
-
 
 
 
@@ -481,7 +329,11 @@
     </div>
     </div>
 
+  <!-- FOOTERTOP -->
 
+  <footer>
+    <?php include '../Components/FooterTop.php'; ?>
+  </footer>
 
 
     <!-- FOOTER -->

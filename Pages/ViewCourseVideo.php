@@ -19,117 +19,10 @@
 <body>
     <!-- <div class="container"> -->
     <!-- header start -->
-    <!-- NAVBAR -->
-    <header>
-        <nav class="navbar navbar-expand-lg  navbar-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">LOGO</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse mr-auto" id="navbarNav">
-
-                    <div class="mx-auto"></div> <!-- margin auto for nav right -->
-
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="./Home.html">Home</a>
-                        </li>
-
-                        <div class="border"></div> <!-- for border between home links -->
-                        <li class="nav-item">
-                            <a class="nav-link active" href="./Courses.html">Courses</a>
-                        </li>
-
-                        <div class="border"></div> <!-- for border between home links -->
-
-                        <li class="nav-item">
-                            <a class="nav-link active" href="./Rules.html">Rules</a>
-                        </li>
-
-                        <div class="border"></div> <!-- for border between home links -->
-
-                        <li class="nav-item">
-                            <a class="nav-link active" href="./ContactUs.html">Contact Us</a>
-                        </li>
-
-                        <div class="border"></div> <!-- for border between home links -->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                <i class="bell-icon SetPositon-usertag-bell fa fa-bell"></i>
-                            </a>
-                            <ul class="dropdown-menu dropdown-menu-notification" aria-labelledby="navbarDropdown">
-                                <div class="row m-auto ">
-                                    <div class="col-2">
-                                        <i style="color: black;" class="fa fa-bell"></i>
-                                    </div>
-                                    <div class="col-10">
-                                        You have a new Nortifcation
-                                    </div>
-                                </div>
-
-                                <div class="row m-auto ">
-                                    <div class="col-2">
-                                        <i style="color: black;" class="fa fa-bell"></i>
-                                    </div>
-                                    <div class="col-10">
-                                        You have a new Nortifcation
-                                    </div>
-                                </div>
-
-                                <div class="row m-auto ">
-                                    <div class="col-2">
-                                        <i style="color: black;" class="fa fa-bell"></i>
-                                    </div>
-                                    <div class="col-10">
-                                        You have a new Nortifcation
-                                    </div>
-                                </div>
-
-                                <div class="row m-auto ">
-                                    <div class="col-2">
-                                        <i style="color: black;" class="fa fa-bell"></i>
-                                    </div>
-                                    <div class="col-10">
-                                        You have a new Nortifcation
-                                    </div>
-                                </div>
-
-
-                                <hr class="dropdown-divider">
-                                <div class="row m-auto">
-                                    <div class="col-12 text-center">
-                                        <a href="../Pages/Nortification.html">Vew All</a>
-                                    </div>
-                                </div>
-                            </ul>
-                        </li>
-
-
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                <i class="SetPositon-usertag-bell fa fa-user-circle"></i> User Abc
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="./Myprofile.html">My Profile</a></li>
-                                <li><a class="dropdown-item" href="./MyCourses.html">Course Logs</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" data-bs-target="#exampleModalToggle4"
-                                        data-bs-toggle="modal" data-bs-dismiss="modal">Log Out</a></li>
-                            </ul>
-                        </li>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
+      <!-- NAVBAR -->
+      <header>
+        <?php include '../Components/Navbar.php'; ?>
+        </header>
 
     <!-- header end -->
 
@@ -139,60 +32,9 @@
         <div class="row">
             <div class="col-3">
                 <!-- sidebar section start  -->
-                <!-- sidebar section start  -->
                 <section class="main-sidebar">
-                    <div class="close-btn"><i class="fas fa-times"></i> </div>
-                    <div class="course-container-sidebar">
-                        <h4>Course ABC</h4>
-                        <h6>Instructor abc </h6>
-                    </div>
-                    <div class="course-button-sidebar"><button class="btn"><a href="./CourseDetails.html">Cours
-                                Details</a></button></div>
-                    <div class="classes-button-sidebar"><button class="btn"><a
-                                href="./CourseClasses.html">Classes</a></button></div>
-                    <div class="files-button-sidebar"><button class="btn"><a
-                                href="./CourseFiles.html">Files</a></button>
-                    </div>
-                    <div class="links-button-sidebar"><button class="btn"><a
-                                href="./CourseLinks.html">Links</a></button></div>
-                    <div class="annoucement-button-sidebar"><button class="btn"><a
-                                href="./CourseAnnoucement.html">Annoucement</a></button></div>
-                    <div class="generic-button-sidebar"><button class="btn"><a
-                                href="./Generic-Course-Content.html">Generic
-                                Coursecontent</a></button></div>
-                    <div class="row margin-auto">
-                        <div class="col-12">
-                            <div class="notify-container-sidebar">
-                                <h2>Notices</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum</p>
-                                <hr>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum</p>
-                                <hr>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row margin-auto">
-                        <div class="col-lg-6 col-sm-12">
-                            <div class="todayclass-container-sidebar">
-                                <h2>Today Class</h2>
-                                <p>Monday: 14/12/2020</p>
-                                <p>Time: 06.30pm - 08:30pm</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-sm-12">
-                            <div class="nextclass-container-sidebar">
-                                <h2>Next Class</h2>
-                                <p>Monday: 17/12/2020</p>
-                                <p>Time: 06.30pm - 08:30pm</p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <div class="open-btn">
-                    <i class="fas fa-bars" style="font-size: 30px;"></i>
-                    <hr>
-                </div>
+                    <?php include '../Components/SideBar.php'; ?>
+                    </section>
             </div>
 
 
@@ -303,7 +145,11 @@
     </div>
 
 
+  <!-- FOOTERTOP -->
 
+  <footer>
+    <?php include '../Components/FooterTop.php'; ?>
+  </footer>
 
 
 

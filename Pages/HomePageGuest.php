@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/53ccbcfe01.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <!-- below owl carousel css links are used -->
     <link rel="stylesheet" href="../Style/owl.carousel.css">
     <link rel="stylesheet" href="../Style/owl.theme.green.css">
@@ -34,6 +35,10 @@
    <?php include "../Components/Slider.php";  ?>
     </Section>
     <!-- carousel slider end -->
+
+    <Section class="Slider">
+        <?php include "../Components/Marquee.php";  ?>
+   </Section>
 
 
     <!-- aboutus section start -->
@@ -275,6 +280,11 @@
 
 
 
+  <!-- FOOTERTOP -->
+
+  <footer>
+    <?php include '../Components/FooterTopGuest.php'; ?>
+  </footer>
 
 
   <!-- FOOTER -->

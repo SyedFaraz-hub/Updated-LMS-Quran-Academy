@@ -80,7 +80,7 @@
                                                 allowfullscreen></iframe>
                                             <!-- above youtube video embed iframe -->
                                             <div class="sub-video-container">
-                                                <h1> <a class="" href="../Pages/ViewCourseVideo.html"> Video Title </a>
+                                                <h1> <a class="" href="../Pages/ViewCourseVideo.php"> Video Title </a>
                                                 </h1>
                                             </div>
                                         </div>
@@ -95,7 +95,7 @@
                                                 allowfullscreen></iframe>
                                             <!-- above youtube video embed iframe -->
                                             <div class="sub-video-container">
-                                                <h1> <a class="" href="../Pages/ViewCourseVideo.html"> Video Title </a>
+                                                <h1> <a class="" href="../Pages/ViewCourseVideo.php"> Video Title </a>
                                                 </h1>
                                             </div>
                                         </div>
@@ -166,7 +166,11 @@
 
 
 
+  <!-- FOOTERTOP -->
 
+  <footer>
+    <?php include '../Components/FooterTop.php'; ?>
+  </footer>
 
 
   <!-- FOOTER -->
