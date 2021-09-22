@@ -27,7 +27,7 @@
   <section>
     <nav class="navbar navbar-light bg-white">
       <div class="container-fluid">
-        <a class="navbar-brand">Courses</a>
+        <a class="navbar-brand"> <h2> Courses </h2></a>
         <form class="d-flex">
           <input class="form-control me-2" type="search" placeholder="Search Course..." aria-label="Search">
           <i class="fas fa-search"></i>
@@ -49,154 +49,118 @@
   <!-- horizontal line end -->
 
   <!-- section start  -->
-  <div class="container-fluid">
-    <div class="main-section">
-      <div class="sub1-section">
-        <div class="row">
-          <div class="col-4">
-            <div class="picborder">
-              <img src="../Images/Demo Course.jpg">
-              <button class="btn btn-outline-primary" data-bs-toggle="modal"
-                data-bs-target="#exampleModal"><a>Enroll</a></button>
-            </div>
-
-          </div>
-          <div class="col-8">
-            <div class="headingcourse">
-              <h1>Course abc</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
-              <h5>$123</h5>
-              <h5>Instructor:<span>Instructor abc</span></h5>
-              <h5>Days:<span>Monday, Tuesday, Wednesday</span></h5>
-            </div>
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4 ml-0px">
+      <div class="col-lg-4 col-sm-6">
+        <div class="card zoomEffect">
+          <img src="../Images/Demo Course.jpg" class="card-img-top img-fluid" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Course Abc</h5>
+            <p class="card-text">
+              This is a Course with supporting text below as a natural lead-in to
+              additional content.
+            </p>
+            <h6>$100</h6>
+            <h6>Course Instructor: <span>Abc</span></h6>
+            <h6>Days: <span>Monday, Wednesday, Friday</span></h6>
+            <center>
+              <button class="btn btn-outline-primary my-4" ><a>Enroll</a></button>
+            </center>
           </div>
         </div>
       </div>
-      <div class="sub2-section">
-        <div class="row">
-          <div class="col-4 ">
-            <div class="picborder">
-              <img src="../Images/Demo Course.jpg">
-              <button class="btn btn-outline-primary" data-bs-toggle="modal"
-                data-bs-target="#exampleModal"><a>Enroll</a></button>
-            </div>
-          </div>
-          <div class="col-8">
-            <div class="headingcourse">
-              <h1>Course abc</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
-              <h5>$123</h5>
-              <h5>Instructor:<span>Instructor abc</span></h5>
-              <h5>Days:<span>Monday, Tuesday, Wednesday</span></h5>
-            </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="card zoomEffect">
+          <img src="../Images/Demo Course.jpg" class="card-img-top img-fluid" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Course Abc</h5>
+            <p class="card-text">
+              This is a Course with supporting text below as a natural lead-in to
+              additional content.
+            </p>
+            <h6>$100</h6>
+            <h6>Course Instructor: <span>Abc</span></h6>
+            <h6>Days: <span>Monday, Wednesday, Friday</span></h6>
+            <center>
+              <button class="btn btn-outline-primary my-4" ><a>Enroll</a></button>
+            </center>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  <!-- section1 and 2 end -->
-
-  <!-- section3 and section4 start -->
-  <div class="container-fluid">
-    <div class="main-section">
-      <div class="sub1-section">
-        <div class="row">
-          <div class="col-4">
-            <div class="picborder">
-              <img src="../Images/Demo Course.jpg">
-              <button class="btn btn-outline-primary" data-bs-toggle="modal"
-                data-bs-target="#exampleModal"><a>Enroll</a></button>
-            </div>
-          </div>
-          <div class="col-8">
-            <div class="headingcourse">
-              <h1>Course abc</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
-              <h5>$123</h5>
-              <h5>Instructor:<span>Instructor abc</span></h5>
-              <h5>Days:<span>Monday, Tuesday, Wednesday</span></h5>
-            </div>
-          </div>
-        </div>
-
-
-      </div>
-      <div class="sub2-section">
-        <div class="row">
-          <div class="col-4">
-            <div class="picborder">
-              <img src="../Images/Demo Course.jpg">
-              <button class="btn btn-outline-primary" data-bs-toggle="modal"
-                data-bs-target="#exampleModal"><a>Enroll</a></button>
-            </div>
-          </div>
-          <div class="col-8">
-            <div class="headingcourse">
-              <h1>Course abc</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
-              <h5>$123</h5>
-              <h5>Instructor:<span>Instructor abc</span></h5>
-              <h5>Days:<span>Monday, Tuesday, Wednesday</span></h5>
-            </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="card zoomEffect">
+          <img src="../Images/Demo Course.jpg" class="card-img-top img-fluid" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Course Abc</h5>
+            <p class="card-text">
+              This is a Course with supporting text below as a natural lead-in to
+              additional content.
+            </p>
+            <h6>$100</h6>
+            <h6>Course Instructor: <span>Abc</span></h6>
+            <h6>Days: <span>Monday, Wednesday, Friday</span></h6>
+            <center>
+              <button class="btn btn-outline-primary my-4" ><a>Enroll</a></button>
+            </center>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  <!-- section3 and 4 end -->
-
-  <!-- horizontal line start -->
-  <div class="hr2">
-    <hr>
-  </div>
-  <!-- horizontal line end -->
-
-  <!-- section5 and6 start -->
-  <div class="container-fluid">
-    <div class="main-section">
-      <div class="sub1-section">
-        <div class="row">
-          <div class="col-4">
-            <div class="picborder">
-              <img src="../Images/Demo Course.jpg">
-              <button class="btn btn-outline-primary" data-bs-toggle="modal"
-                data-bs-target="#exampleModal"><a>Enroll</a></button>
-            </div>
-          </div>
-          <div class="col-8">
-            <div class="headingcourse">
-              <h1>Course abc</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
-              <h5>$123</h5>
-              <h5>Instructor:<span>Instructor abc</span></h5>
-              <h5>Days:<span>Monday, Tuesday, Wednesday</span></h5>
-            </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="card zoomEffect">
+          <img src="../Images/Demo Course.jpg" class="card-img-top img-fluid" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Course Abc</h5>
+            <p class="card-text">
+              This is a Course with supporting text below as a natural lead-in to
+              additional content.
+            </p>
+            <h6>$100</h6>
+            <h6>Course Instructor: <span>Abc</span></h6>
+            <h6>Days: <span>Monday, Wednesday, Friday</span></h6>
+            <center>
+              <button class="btn btn-outline-primary my-4" ><a>Enroll</a></button>
+            </center>
           </div>
         </div>
       </div>
-      <div class="sub2-section">
-        <div class="row">
-          <div class="col-4">
-            <div class="picborder">
-              <img src="../Images/Demo Course.jpg">
-              <button class="btn btn-outline-primary" data-bs-toggle="modal"
-                data-bs-target="#exampleModal"><a>Enroll</a></button>
-            </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="card zoomEffect">
+          <img src="../Images/Demo Course.jpg" class="card-img-top img-fluid" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Course Abc</h5>
+            <p class="card-text">
+              This is a Course with supporting text below as a natural lead-in to
+              additional content.
+            </p>
+            <h6>$100</h6>
+            <h6>Course Instructor: <span>Abc</span></h6>
+            <h6>Days: <span>Monday, Wednesday, Friday</span></h6>
+            <center>
+              <button class="btn btn-outline-primary my-4" ><a>Enroll</a></button>
+            </center>
           </div>
-          <div class="col-8">
-            <div class="headingcourse">
-              <h1>Course abc</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
-              <h5>$123</h5>
-              <h5>Instructor:<span>Instructor abc</span></h5>
-              <h5>Days:<span>Monday, Tuesday, Wednesday</span></h5>
-            </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="card zoomEffect">
+          <img src="../Images/Demo Course.jpg" class="card-img-top img-fluid" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Course Abc</h5>
+            <p class="card-text">
+              This is a Course with supporting text below as a natural lead-in to
+              additional content.
+            </p>
+            <h6>$100</h6>
+            <h6>Course Instructor: <span>Abc</span></h6>
+            <h6>Days: <span>Monday, Wednesday, Friday</span></h6>
+            <center>
+              <button class="btn btn-outline-primary my-4" ><a>Enroll</a></button>
+            </center>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- section5 and 6 end -->
 
 
   <!-- ___________________EXTRA__________________- -->

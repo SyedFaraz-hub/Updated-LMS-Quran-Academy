@@ -1,5 +1,5 @@
 <!-- Footer -->
-<footer class="text-center text-lg-start bg-light text-muted py-4">
+<footer class="text-center text-lg-start bg-light text-muted py-4 mt-5">
 
     <!-- Section: Links  -->
     <section class="">

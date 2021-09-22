@@ -8,20 +8,20 @@
   <title>Courses</title>
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <link rel="stylesheet" href="../CSS/style.css">
-    <link rel="stylesheet" href="../CSS/bootstrap.css">
+  <link rel="stylesheet" href="../CSS/style.css">
+  <link rel="stylesheet" href="../CSS/bootstrap.css">
   <script src="../Script/bootstrap.js"></script>
-  <link rel="shortcut icon" type="image/jpg" href="../Images/logo.png"/>
+  <link rel="shortcut icon" type="image/jpg" href="../Images/logo.png" />
 
 </head>
 
 <body>
   <!-- <div class="container"> -->
   <!-- header start -->
-      <!-- NAVBAR -->
-      <header>
-       <?php include '../Components/Navbar.php'; ?>
-      </header>
+  <!-- NAVBAR -->
+  <header>
+    <?php include '../Components/Navbar.php'; ?>
+  </header>
 
   <!-- header end -->
 
@@ -29,7 +29,7 @@
   <section>
     <nav class="navbar navbar-light bg-white">
       <div class="container-fluid">
-        <a class="navbar-brand">Courses</a>
+        <a class="navbar-brand"> <h2> Courses </h2></a>
         <form class="d-flex">
           <input class="form-control me-2" type="search" placeholder="Search Course..." aria-label="Search">
           <i class="fas fa-search"></i>
@@ -51,157 +51,127 @@
   <!-- horizontal line end -->
 
   <!-- section start  -->
-  <div class="container-fluid">
-    <div class="main-section">
-      <div class="sub1-section">
-        <div class="row">
-          <div class="col-4">
-            <div class="picborder">
-              <img src="../Images/Demo Course.jpg">
-              <button class="btn btn-outline-primary" data-bs-toggle="modal"
-                data-bs-target="#exampleModal"><a>Enroll</a></button>
-            </div>
-          </div>
-          <div class="col-8">
-            <div class="headingcourse">
-              <h1>Course abc</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
-              <h5>$123</h5>
-              <h5>Instructor:<span>Instructor abc</span></h5>
-              <h5>Days:<span>Monday, Tuesday, Wednesday</span></h5>
-            </div>
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4 ml-0px">
+      <div class="col-lg-4 col-sm-6">
+        <div class="card zoomEffect">
+          <img src="../Images/Demo Course.jpg" class="card-img-top img-fluid" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Course Abc</h5>
+            <p class="card-text">
+              This is a Course with supporting text below as a natural lead-in to
+              additional content.
+            </p>
+            <h6>$100</h6>
+            <h6>Course Instructor: <span>Abc</span></h6>
+            <h6>Days: <span>Monday, Wednesday, Friday</span></h6>
+            <center>
+              <button class="btn btn-outline-primary my-4" ><a>Enroll</a></button>
+            </center>
           </div>
         </div>
       </div>
-      <div class="sub2-section">
-        <div class="row">
-          <div class="col-4 ">
-            <div class="picborder">
-              <img src="../Images/Demo Course.jpg">
-              <button class="btn  btn-outline-success">
+      <div class="col-lg-4 col-sm-6">
+        <div class="card zoomEffect">
+          <img src="../Images/Demo Course.jpg" class="card-img-top img-fluid" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Course Abc</h5>
+            <p class="card-text">
+              This is a Course with supporting text below as a natural lead-in to
+              additional content.
+            </p>
+            <h6>$100</h6>
+            <h6>Course Instructor: <span>Abc</span></h6>
+            <h6>Days: <span>Monday, Wednesday, Friday</span></h6>
+            <center>
+              <button class="btn  btn-outline-success my-4">
                 <i class="check-icon fa fa-check"></i> <a class="underlineremove-and-colorwhite"
                   href="./CourseDetails.php"> Enroll</a></button>
-
-            </div>
-          </div>
-          <div class="col-8">
-            <div class="headingcourse">
-              <h1>Course abc</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
-              <h5>$123</h5>
-              <h5>Instructor:<span>Instructor abc</span></h5>
-              <h5>Days:<span>Monday, Tuesday, Wednesday</span></h5>
-            </div>
+            </center>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  <!-- section1 and 2 end -->
-
-  <!-- section3 and section4 start -->
-  <div class="container-fluid">
-    <div class="main-section">
-      <div class="sub1-section">
-        <div class="row">
-          <div class="col-4">
-            <div class="picborder">
-              <img src="../Images/Demo Course.jpg">
-              <button class="btn btn-outline-secondary" disabled><a>Applied</a></button>
-            </div>
-          </div>
-          <div class="col-8">
-            <div class="headingcourse">
-              <h1>Course abc</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
-              <h5>$123</h5>
-              <h5>Instructor:<span>Instructor abc</span></h5>
-              <h5>Days:<span>Monday, Tuesday, Wednesday</span></h5>
-            </div>
-          </div>
-        </div>
-
-
-      </div>
-      <div class="sub2-section">
-        <div class="row">
-          <div class="col-4">
-            <div class="picborder">
-              <img src="../Images/Demo Course.jpg">
-              <button class="btn btn-outline-primary"><a class="underlineremove-and-colorwhite reduce-compelete-btn"
-                  href="./CourseDetails - CourseClose.php">Completed</a></button>
-              <button class="btn btn-outline-primary" data-bs-toggle="modal"
-                data-bs-target="#exampleModal"><a>Re-Enroll</a></button>
-            </div>
-          </div>
-          <div class="col-8">
-            <div class="headingcourse">
-              <h1>Course abc</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
-              <h5>$123</h5>
-              <h5>Instructor:<span>Instructor abc</span></h5>
-              <h5>Days:<span>Monday, Tuesday, Wednesday</span></h5>
-            </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="card zoomEffect">
+          <img src="../Images/Demo Course.jpg" class="card-img-top img-fluid" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Course Abc</h5>
+            <p class="card-text">
+              This is a Course with supporting text below as a natural lead-in to
+              additional content.
+            </p>
+            <h6>$100</h6>
+            <h6>Course Instructor: <span>Abc</span></h6>
+            <h6>Days: <span>Monday, Wednesday, Friday</span></h6>
+            <center>
+              <button class="btn btn-outline-secondary my-4" disabled><a>Applied</a></button>
+            </center>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  <!-- section3 and 4 end -->
-
-  <!-- horizontal line start -->
-  <div class="hr2">
-    <hr>
-  </div>
-  <!-- horizontal line end -->
-
-  <!-- section5 and6 start -->
-  <div class="container-fluid">
-    <div class="main-section">
-      <div class="sub1-section">
-        <div class="row">
-          <div class="col-4">
-            <div class="picborder">
-              <img src="../Images/Demo Course.jpg">
-              <button class="btn btn-outline-primary" data-bs-toggle="modal"
-                data-bs-target="#exampleModal"><a>Enroll</a></button>
-            </div>
-          </div>
-          <div class="col-8">
-            <div class="headingcourse">
-              <h1>Course abc</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
-              <h5>$123</h5>
-              <h5>Instructor:<span>Instructor abc</span></h5>
-              <h5>Days:<span>Monday, Tuesday, Wednesday</span></h5>
-            </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="card zoomEffect">
+          <img src="../Images/Demo Course.jpg" class="card-img-top img-fluid" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Course Abc</h5>
+            <p class="card-text">
+              This is a Course with supporting text below as a natural lead-in to
+              additional content.
+            </p>
+            <h6>$100</h6>
+            <h6>Course Instructor: <span>Abc</span></h6>
+            <h6>Days: <span>Monday, Wednesday, Friday</span></h6>
+            <center>
+              <button class="btn btn-outline-primary my-4"><a class="underlineremove-and-colorwhite"
+                href="./CourseDetails - CourseClose.php">Completed</a></button>
+            <button class="btn btn-outline-primary my-4" data-bs-toggle="modal"
+              data-bs-target="#exampleModal"><a>Re-Enroll</a></button>
+            </center>
           </div>
         </div>
       </div>
-      <div class="sub2-section">
-        <div class="row">
-          <div class="col-4">
-            <div class="picborder">
-              <img src="../Images/Demo Course.jpg">
-              <button class="btn  btn-outline-success">
+      <div class="col-lg-4 col-sm-6">
+        <div class="card zoomEffect">
+          <img src="../Images/Demo Course.jpg" class="card-img-top img-fluid" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Course Abc</h5>
+            <p class="card-text">
+              This is a Course with supporting text below as a natural lead-in to
+              additional content.
+            </p>
+            <h6>$100</h6>
+            <h6>Course Instructor: <span>Abc</span></h6>
+            <h6>Days: <span>Monday, Wednesday, Friday</span></h6>
+            <center>
+              <button class="btn btn-outline-primary my-4" ><a>Enroll</a></button>
+            </center>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="card zoomEffect">
+          <img src="../Images/Demo Course.jpg" class="card-img-top img-fluid" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Course Abc</h5>
+            <p class="card-text">
+              This is a Course with supporting text below as a natural lead-in to
+              additional content.
+            </p>
+            <h6>$100</h6>
+            <h6>Course Instructor: <span>Abc</span></h6>
+            <h6>Days: <span>Monday, Wednesday, Friday</span></h6>
+            <center>
+              <button class="btn  btn-outline-success my-4">
                 <i class="check-icon fa fa-check"></i> <a class="underlineremove-and-colorwhite"
                   href="./CourseDetails.php"> Enroll</a></button>
-            </div>
-          </div>
-          <div class="col-8">
-            <div class="headingcourse">
-              <h1>Course abc</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
-              <h5>$123</h5>
-              <h5>Instructor:<span>Instructor abc</span></h5>
-              <h5>Days:<span>Monday, Tuesday, Wednesday</span></h5>
-            </div>
+            </center>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- section5 and 6 end -->
+
+
 
 
   <!-- ___________________EXTRA__________________- -->
@@ -225,10 +195,10 @@
           </div>
         </div>
         <div class="para-Error">
-          <button class="btn modal-btn-1 btn-outline-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal"
-            data-bs-dismiss="modal">Yes</button>
-          <button class="btn modal-btn-2 btn-outline-primary" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal"
-            data-bs-dismiss="modal">Request For Demo</button>
+          <button class="btn modal-btn-1 btn-outline-primary" data-bs-target="#exampleModalToggle2"
+            data-bs-toggle="modal" data-bs-dismiss="modal">Yes</button>
+          <button class="btn modal-btn-2 btn-outline-primary" data-bs-target="#exampleModalToggle3"
+            data-bs-toggle="modal" data-bs-dismiss="modal">Request For Demo</button>
         </div>
       </div>
     </div>
@@ -254,7 +224,8 @@
             <h2>Course Enrollment Request Sent Successfully!</h2>
           </div>
           <div class="error-tag">
-            <button type="submit" class="modal-btn-2 btn btn-outline-primary" data-bs-dismiss="modal" aria-label="Close">
+            <button type="submit" class="modal-btn-2 btn btn-outline-primary" data-bs-dismiss="modal"
+              aria-label="Close">
               Ok
             </button>
           </div>
@@ -279,7 +250,8 @@
             <h2>Demo Request Sent Successfully!</h2>
           </div>
           <div class="error-tag">
-            <button type="submit" class="modal-btn-2 btn btn-outline-primary" data-bs-dismiss="modal" aria-label="Close">
+            <button type="submit" class="modal-btn-2 btn btn-outline-primary" data-bs-dismiss="modal"
+              aria-label="Close">
               Ok
             </button>
           </div>
@@ -297,7 +269,7 @@
   <!-- FOOTER -->
 
   <footer>
-  <?php include '../Components/Footer.php'; ?>
+    <?php include '../Components/Footer.php'; ?>
   </footer>
 
 

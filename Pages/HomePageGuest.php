@@ -81,6 +81,11 @@
         </div>
     </div>
     <!-- about us section end -->
+
+        <!-- ------------PLANS SECTION---------- -->
+        <section>
+            <?php include '../Components/Plans.php'; ?>
+        </section>
      
     <br>
     <br>
@@ -92,12 +97,12 @@
 
 
     <!-- carousel start for last section of home page -->
-    <div class="container-fluid">
+    <div class="container">
         <div class="owl-container">
             <div class="owl-carousel owl-theme">
                 <div class="item">
                     <!-- Row for enroll card -->
-                    <div class="row row-col-2">
+                    <div class="row row-col-2 ml-0px">
 
                         <div class="col-lg-4 col-md-12 col-sm-12">
                             <div class="course-enroll-card">
@@ -122,7 +127,7 @@
                 </div>
                 <div class="item">
                     <!-- Row for enroll card -->
-                    <div class="row row-col-2">
+                    <div class="row row-col-2 ml-0px">
 
                         <div class="col-lg-4 col-md-12 col-sm-12">
                             <div class="course-enroll-card">
@@ -148,7 +153,7 @@
 
                 <div class="item">
                     <!-- Row for enroll card -->
-                    <div class="row row-col-2">
+                    <div class="row row-col-2 ml-0px">
 
                         <div class="col-lg-4 col-md-12 col-sm-12">
                             <div class="course-enroll-card">
@@ -173,7 +178,7 @@
                 </div>
                 <div class="item">
                     <!-- Row for enroll card -->
-                    <div class="row row-col-2">
+                    <div class="row row-col-2 ml-0px">
 
                         <div class="col-lg-4 col-md-12 col-sm-12">
                             <div class="course-enroll-card">
@@ -198,7 +203,7 @@
                 </div>
                 <div class="item">
                     <!-- Row for enroll card -->
-                    <div class="row row-col-2">
+                    <div class="row row-col-2 ml-0px">
 
                         <div class="col-lg-4 col-md-12 col-sm-12">
                             <div class="course-enroll-card">
@@ -223,7 +228,7 @@
                 </div>
                 <div class="item">
                     <!-- Row for enroll card -->
-                    <div class="row row-col-2">
+                    <div class="row row-col-2 ml-0px">
 
                         <div class="col-lg-4 col-md-12 col-sm-12">
                             <div class="course-enroll-card">

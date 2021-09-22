@@ -76,7 +76,14 @@
         </div>
     </div>
     <!-- about us section end -->
-     
+
+    <!-- ------------PLANS SECTION---------- -->
+    <section>
+        <?php include '../Components/Plans.php'; ?>
+    </section>
+
+
+         
     <br>
      <br>
     <div class="container">
@@ -86,18 +93,17 @@
     </div>
 
     <!-- carousel start for last section of home page -->
-    <div class="container-fluid">
+    <div class="container">
         <div class="owl-container">
             <div class="owl-carousel owl-theme">
                 <div class="item">
                     <!-- Row for enroll card -->
-                    <div class="row row-col-2">
+                    <div class="row row-col-2 ml-0px">
 
                         <div class="col-lg-4 col-md-12 col-sm-12">
                             <div class="course-enroll-card">
                                 <img class="img-fluid" src="../Images/Demo Course.jpg">
-                                <button class="btn btn-outline-primary" data-bs-toggle="modal"
-                                    data-bs-target="#exampleModal">Enroll</button>
+                                <button class="btn btn-outline-primary" >Enroll</button>
                             </div>
                         </div>
 
@@ -116,13 +122,12 @@
                 </div>
                 <div class="item">
                     <!-- Row for enroll card -->
-                    <div class="row row-col-2">
+                    <div class="row row-col-2 ml-0px">
 
                         <div class="col-lg-4 col-md-12 col-sm-12">
                             <div class="course-enroll-card">
                                 <img class="img-fluid" src="../Images/Demo Course.jpg">
-                                <button class="btn btn-outline-primary" data-bs-toggle="modal"
-                                    data-bs-target="#exampleModal">Enroll</button>
+                                <button class="btn btn-outline-primary" >Enroll</button>
                             </div>
                         </div>
 
@@ -142,13 +147,12 @@
 
                 <div class="item">
                     <!-- Row for enroll card -->
-                    <div class="row row-col-2">
+                    <div class="row row-col-2 ml-0px">
 
                         <div class="col-lg-4 col-md-12 col-sm-12">
                             <div class="course-enroll-card">
                                 <img class="img-fluid" src="../Images/Demo Course.jpg">
-                                <button class="btn btn-outline-primary" data-bs-toggle="modal"
-                                    data-bs-target="#exampleModal">Enroll</button>
+                                <button class="btn btn-outline-primary" >Enroll</button>
                             </div>
                         </div>
 
@@ -167,13 +171,12 @@
                 </div>
                 <div class="item">
                     <!-- Row for enroll card -->
-                    <div class="row row-col-2">
+                    <div class="row row-col-2 ml-0px">
 
                         <div class="col-lg-4 col-md-12 col-sm-12">
                             <div class="course-enroll-card">
                                 <img class="img-fluid" src="../Images/Demo Course.jpg">
-                                <button class="btn btn-outline-primary" data-bs-toggle="modal"
-                                    data-bs-target="#exampleModal">Enroll</button>
+                                <button class="btn btn-outline-primary" >Enroll</button>
                             </div>
                         </div>
 
@@ -192,13 +195,12 @@
                 </div>
                 <div class="item">
                     <!-- Row for enroll card -->
-                    <div class="row row-col-2">
+                    <div class="row row-col-2 ml-0px">
 
                         <div class="col-lg-4 col-md-12 col-sm-12">
                             <div class="course-enroll-card">
                                 <img class="img-fluid" src="../Images/Demo Course.jpg">
-                                <button class="btn btn-outline-primary" data-bs-toggle="modal"
-                                    data-bs-target="#exampleModal">Enroll</button>
+                                <button class="btn btn-outline-primary" >Enroll</button>
                             </div>
                         </div>
 
@@ -217,13 +219,12 @@
                 </div>
                 <div class="item">
                     <!-- Row for enroll card -->
-                    <div class="row row-col-2">
+                    <div class="row row-col-2 ml-0px">
 
                         <div class="col-lg-4 col-md-12 col-sm-12">
                             <div class="course-enroll-card">
                                 <img class="img-fluid" src="../Images/Demo Course.jpg">
-                                <button class="btn btn-outline-primary" data-bs-toggle="modal"
-                                    data-bs-target="#exampleModal">Enroll</button>
+                                <button class="btn btn-outline-primary" >Enroll</button>
                             </div>
                         </div>
 
